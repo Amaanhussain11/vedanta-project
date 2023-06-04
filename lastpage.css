@@ -1,0 +1,145 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.lupperbody{
+    height: 25vh;
+    width: 100vw;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}.lheading{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    /* border: 2px solid white; */
+    font-weight: 700;
+    font-size: 42px;
+
+
+}
+
+.lsubheading{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    /* border: 2px solid white; */
+    font-weight: 500;
+    font-size: 24px;
+    opacity: 50%;
+}
+
+.llowerbody{
+    height: fit-content;
+    width: 100vw;
+    /* border: 2px solid white; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.libody{
+    height: 614px;
+    width: 1050px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.lbox{
+    height: 307px;
+    width: 340px;
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+    align-items: center;
+    text-align: left;
+
+}
+#lbox1{
+    background-color: #482D56;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.playicon{
+    height: 75.73px;
+    width: 75.73px;
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: #C6246E;
+}
+#lbox2{
+    background: #C6246E;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}
+.lbox2f{
+    font-weight: 600;
+    font-size: 36px;
+}
+.lbox2s{
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 80%;
+
+}
+.lbox2t{
+    height: 52px ;
+    width: 153px;
+    background-color: #482D56;
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+
+
+}
+#lbox3{
+    background-color: #482D56;
+}
+#lbox4{
+    background: #C6246E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+
+}
+#lbox5{
+    background-color: #482D56;
+}
+#lbox6{
+    background: #C6246E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+

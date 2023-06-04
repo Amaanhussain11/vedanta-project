@@ -1,5 +1,222 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
 
-.signup{
-    /* background-color: black; */
-    /* color: white; */
+
+}
+.fh{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 1px solid red; */
+    width: 45vw;
+    height: 15vh;
+    
+}
+.header{
+    width: 100vw;
+    height: 15vh;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* font-weight: bolder; */
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.sh{
+    width:55vw ;
+    height: 15vh;
+    /* border: 2px solid orange; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 36px;
+
+
+}
+
+.account{
+    /* margin-top: 0;
+    margin-right: 0; */
+    height: 82vh;
+    width: 55vw;
+    /* border: 2px solid orange; */
+    /* float: right; */
+}
+.left{
+    height: 80vh;
+    width:45vw ;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+}
+.content{
+    /* border: 2px solid white; */
+    height: 51vh;
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.body{
+    width: 100vw;
+    height: 75vh;
+    /* border:2px solid white; */
+    display: flex;
+}
+.fb{
+    width: 45vw;
+    /* border: 2px solid orange; */
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sb{
+    width: 55vw;
+    /* border: 2px solid orange; */
+    height: 75vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.fl{
+    width: 50vw;
+    /* border: 2px solid orange; */
+    display: flex;
+    /* justify-content: ; */
+    height: 10vh;
+
+    align-items: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.fn{
+    height: 8vh;
+    width:20vw ;
+    /* border: 1px solid orange; */
+    
+}
+
+.sn{
+    height: 8vh;
+    width:20vw ;
+    /* border: 1px solid orange; */
+}
+
+.btn{
+    height: 7vh;
+    width: 20vw;
+    display: flex;
+    background-color: #EF0E6D;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: large;
+    
+
+}
+#firstline{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#lastline{
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.facebook{
+    display: flex;
+    justify-content: center;
+    width: 20vw;
+    height:7vh;
+    border: 2px solid #ffa500;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #310011;
+    color: white;
+}
+.twitter{
+    display: flex;
+    justify-content: center;
+    width: 20vw;
+    height:7vh ;
+    align-items: center;
+    border: 2px solid orange;
+    border-radius: 10px;
+    background-color: #310011;
+    color: white;
+
+}
+.icon{
+    width: auto;
+    height: auto;
+    padding: 6px;
+}
+.box{
+    width: 19vw;
+    height: 9vh;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* font-weight: bold; */
+    /* font-size: large; */
+}
+
+#middlebox{
+    width: 25vw;
+    height: 9vh;
+    text-align: center; 
+    font-weight: 10px;
+
+}
+#upperbox{
+    font-weight: bolder;
+    font-size: x-large;
+}
+#downbox{
+    border: 1px solid white;
+    height: fit-content;
+    padding: 10px;
+    width: fit-content;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 50px;
+    border-color: #fff;
+    background-color: #310011;
+}
+
+.signin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: x-large;
+}
+.signbtn{
+    font-weight: bolder;
+    /* font-size: xx-large; */
+}
+.signbtn:hover{
+    cursor: pointer;
 }
