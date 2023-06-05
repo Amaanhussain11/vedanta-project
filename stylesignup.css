@@ -87,92 +87,112 @@ body{
     /* border: 2px solid orange; */
     height: 75vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-direction: column;
 
 }
 
-.fl{
-    width: 50vw;
-    /* border: 2px solid orange; */
+.name{
     display: flex;
-    /* justify-content: ; */
+    justify-content: space-between;
+    align-items: center;
+    width: 37vw;
     height: 10vh;
-
-    align-items: center;
-    font-weight: bold;
-    font-size: large;
+    /* border: 2px solid white; */
 }
-
-.fn{
-    height: 8vh;
-    width:20vw ;
-    /* border: 1px solid orange; */
-    
-}
-
-.sn{
-    height: 8vh;
-    width:20vw ;
-    /* border: 1px solid orange; */
-}
-
-.btn{
-    height: 7vh;
-    width: 20vw;
+.fieldset{
+    border-radius: 17px;
+    width: 12vw;
+    height: 4vh;
     display: flex;
-    background-color: #EF0E6D;
-    color: white;
-    font-weight: bolder;
-    text-align: center;
     justify-content: center;
-    border-radius: 5px;
-    font-size: large;
-    
+    align-items: center;
+    font-weight: 500;
+    font-size: 20px;
+    border: 2px solid white;
+
 
 }
-#firstline{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.input1{
+    background-color: black;
+    color: white;
+    border: none;
+    
+    outline: none;
+
+    border-radius: 10px;
+    width: 14vw;
+    height: 4vh;
 }
-#lastline{
-    /* border: 1px solid white; */
+
+.input{
+    width: fit-content;
+    height: fit-content;
+    /* border: 2px solid red; */
+}
+
+#email{
+    width: 35vw;
+}
+#password{
+    width: 35vw;
+}
+
+.createaccount{
+    width: 38vw;
+    height: 7vh;
+    border-radius: 17px;
+    background: #EF0E6DEB;
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    border: none;
+}
+
+.signupwithsocialmedia{
     display: flex;
-    justify-content: space-between;
+    width: 37vw;
+    height: 8vh;
+    justify-content: space-evenly;
     align-items: center;
 }
 .facebook{
+    width: fit-content;
+    height:fit-content;
+    /* border: 1px solid white; */
     display: flex;
-    justify-content: center;
-    width: 20vw;
-    height:7vh;
-    border: 2px solid #ffa500;
+    justify-content: flex-start;
     align-items: center;
-    border-radius: 10px;
-    background-color: #310011;
-    color: white;
-}
-.twitter{
-    display: flex;
-    justify-content: center;
-    width: 20vw;
-    height:7vh ;
-    align-items: center;
-    border: 2px solid orange;
-    border-radius: 10px;
-    background-color: #310011;
-    color: white;
+    text-align: center;
+    padding: 5px;
+    background-color:#310011;
+    font-weight: bold;
+
+
 
 }
-.icon{
-    width: auto;
-    height: auto;
-    padding: 6px;
+.twitter{
+    width: fit-content;
+    height: fit-content;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    background-color:  #310011;
+    font-weight: bold;
+    
 }
+.icon{
+    padding: 3px;
+}
+
+
+
 .box{
-    width: 19vw;
-    height: 9vh;
+    width: fit-content;
+    height: fit-content;
     /* border: 1px solid red; */
     display: flex;
     justify-content: center;
@@ -183,26 +203,33 @@ body{
 }
 
 #middlebox{
-    width: 25vw;
-    height: 9vh;
+    width: fit-content;
+    height: fit-content;
     text-align: center; 
-    font-weight: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 10px;
 
 }
 #upperbox{
-    font-weight: bolder;
-    font-size: x-large;
+    font-weight: 700;
+    font-size: 60px;
 }
 #downbox{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     height: fit-content;
-    padding: 10px;
+    padding: 20px;
     width: fit-content;
     font-weight: bold;
     font-size: large;
     border-radius: 50px;
     border-color: #fff;
     background-color: #310011;
+    margin-top: 30px;
+}
+
+.icon{
+    margin-right: 7px;
 }
 
 .signin{

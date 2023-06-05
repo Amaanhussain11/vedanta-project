@@ -1,32 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-Up</title>
     <link rel="stylesheet" href="stylesignup.css">
-   
+
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
-   <div class="header">
+    <div class="header">
         <div class="fh">
             <div class="logo">
                 <img src="logo.png" alt="Logo" width="117px" height="117">
             </div>
             <div class="name">
-                    V-Explore
+                V-Explore
             </div>
         </div>
 
         <div class="sh">
             Create Account
         </div>
-   </div>
+    </div>
 
-   <div class="body">
+    <div class="body">
         <div class="fb">
             <div class="content">
 
@@ -37,7 +38,7 @@
                     To keep connected with us please Sign up<br>
                     with your personal info.
                 </div>
-                <div class="third box" id="downbox" >
+                <div class="third box" id="downbox">
                     <div class="icon">
                         <i class="fa-brands fa-google fa-xl"></i>
                     </div>
@@ -46,67 +47,75 @@
 
             </div>
         </div>
-        <div class="sb">
-            <form action="/action_page.php" class="sb"> <div class="fl" id="firstline">
-                <div id="fn">
+        <form class="sb">
 
-                    <label for="fname">First name:</label>
-            <input type="text" id="fname" name="fname">
+            <div class="name">
+                <fieldset class="fieldset">
+                    <legend>
+                        First Name
+                    </legend>
+                    <input class="input1" type="text" name="text" id="text" placeholder="">
+                </fieldset>
 
-                </div>
-                <div id="sn">
-                    <label for="lname">Last name:</label>
-                    <input type="text" id="lname" name="lname">
-                </div>
-
-            </div>
-            <div class="fl">
-                <label for="email">Email:</label>
-            <input type="email" id="email" name="email">
-            </div>
-            <div class="fl">
-                <label for="password">Password:</label>
-            <input type="password" id="password" name="password">
-            </div>
-            <div class="fl">
-
-                
-                <input class="btn" type="submit" value="Create Account" >
+                <fieldset class="fieldset">
+                    <legend>
+                        Last Name
+                    </legend>
+                    <input class="input1" type="text" name="text" id="text" placeholder="">
+                </fieldset>
             </div>
 
-            <div class="fl" id="lastline">
+            <fieldset class="fieldset" id="email">
+                <legend>
+                    Email
+                </legend>
+                <input class="input1" type="email" name="email" id="email" placeholder="">
+            </fieldset>
+
+            <fieldset class="fieldset" id="password">
+                <legend>
+                    Password
+                </legend>
+                <input class="input1" type="password" name="password" id="password" placeholder="">
+            </fieldset>
+            <div class="createaccount">
+
+                <input class="createaccount" type="submit" value="Create Account">
+            </div>
+
+            <div class="signupwithsocialmedia">
                 <div class="facebook">
                     <div class="icon">
-                        <i class="fa-brands fa-facebook fa-xl"></i>
+                        <i class="fa-brands fa-facebook fa-xl" style="color: #ffffff;"></i>
                     </div>
-                    Sign up with FaceBook
-                  
+                    <div class="para"> Sign up with FaceBook</div>
                 </div>
                 <div class="twitter">
-                    <div class="icon">
-                        <i class="fa-brands fa-twitter fa-xl"></i>
-                    </div>
-                    Sign up with Twitter
-                </div>
 
+                    <div class="icon">
+                        <i class="fa-brands fa-twitter fa-xl" style="color: #ffffff;"></i>
+                    </div>
+                    <div class="para">Sign up with Twitter</div>
+
+                    
+                </div>
             </div>
 
-             </form>
 
-             
-            
-        </div>
-   </div>
 
-   <div class="signin">
-    Arleady have an account? <div class="signbtn">
-        Sign In
+
+        </form>
     </div>
-   </div>
+
+    <div class="signin">
+        Arleady have an account? <div class="signbtn">
+            Sign In
+        </div>
+    </div>
 
 
-   
-        <!-- <div class="heading">
+
+    <!-- <div class="heading">
             Create Account
         </div>
     </div>
@@ -123,7 +132,7 @@
     </div> -->
 
 
-    
+
 </body>
 <script src="https://kit.fontawesome.com/af27657c8f.js" crossorigin="anonymous"></script>
 
