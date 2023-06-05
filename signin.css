@@ -1,0 +1,266 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.header{
+    height: 10vh;
+    width: 100vw;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    margin-top: 3vh;
+    /* font-family:  sans-serif; */
+    /* position: fixed; */
+    z-index: 1;
+    position: sticky;
+    top: 0px;
+    flex-wrap: wrap;
+    
+}
+.fh{
+    height: 10hv;
+    width: 50vw;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: flex-start;
+
+
+
+}
+.logo{
+    height: 9vh;
+    width: 8vw;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow:hidden; */
+
+}
+.name{
+    height: 9vh;
+    width: 42vw;
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.sbody{
+    /* border: 2px solid white; */
+    width: 100vw;
+    height: 80vh;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+
+
+}
+
+.fsbody{
+    width: 40vw;
+    height: 60vh;
+    /* border: 2px solid white; */
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+
+}
+.ssbody{
+    width: 50vw;
+    height: 70vh;
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+
+}
+
+.loginto{
+    /* border: 2px solid white; */
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    font-weight: 700;
+    font-size: 52px;
+    text-align: center;
+
+}
+
+.username input{
+    background-color: #310011;
+    width: 27vw;
+    height: 8vh;
+    /* border: 2px solid white; */
+    color: white;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: none;
+    border-radius: 5px;
+
+}
+.username{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid white;
+    background-color: #310011;
+    border-radius: 5px ;
+    width: fit-content;
+}
+.icon{
+    margin-right: 4px;
+    margin-left: 5px;
+    
+}
+
+.spassword input{
+    background-color: #310011;
+    width: 25vw;
+    height: 8vh;
+    /* border: 2px solid white; */
+    color: white;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: none;
+    border-radius: 5px;
+}
+
+.spassword{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid white;
+    background-color: #310011;
+    border-radius: 5px ;
+    width: fit-content;
+}
+
+.loginbutton{
+    width: 25vw;
+    height: 8vh;
+    /* border: 2px solid white; */
+    /* background-color: #310011; */
+    color: white;
+    background: #EF0E6DEB;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.rememberme{
+    width: 25vw;
+    height: 8vh;
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 18px;
+    flex-wrap: wrap;
+    
+
+}
+.remember{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fsheading{
+    font-weight: 700;
+    font-size: 50px;
+    
+
+}
+.fscontent{
+    font-weight: 600;
+    font-size: 28px;
+
+}
+
+.fslogin{
+    width: 20vw;
+    height: fit-content;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.line{
+    border: 1px solid white;
+    width: 4vw;
+    height: 0px;
+
+}
+
+.fsloginicon{
+    display: flex;
+    width:20vw;
+    height: 8vh;
+    /* border: 1px solid white; */
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.facebookicon{
+    height: 40px;
+    /* border: 1px solid white; */
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: #1877F2;
+
+}
+
+.googleicon{
+    height: 40px;
+    width: 40px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: #1877F2;
+
+}
+.twittericon{
+    height: 40px;
+    width: 40px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: #1877F2;
+
+}
