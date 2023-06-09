@@ -12,7 +12,7 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     width: 45vw;
     height: 15vh;
     
@@ -20,11 +20,11 @@ body{
 .header{
     width: 100vw;
     height: 15vh;
-    /* border: 1px solid white; */
+    border: 1px solid white;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    /* font-weight: bolder; */
+    font-weight: bolder;
     font-size: 36px;
     font-weight: bold;
 }
@@ -32,7 +32,7 @@ body{
 .sh{
     width:55vw ;
     height: 15vh;
-    /* border: 2px solid orange; */
+    border: 2px solid orange;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -46,20 +46,20 @@ body{
     margin-right: 0; */
     height: 82vh;
     width: 55vw;
-    /* border: 2px solid orange; */
+    border: 2px solid orange;
     /* float: right; */
 }
 .left{
     height: 80vh;
     width:45vw ;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 0px;
 }
 .content{
-    /* border: 2px solid white; */
+    border: 2px solid white;
     height: 51vh;
     width: 45vw;
     display: flex;
@@ -70,12 +70,12 @@ body{
 .body{
     width: 100vw;
     height: 75vh;
-    /* border:2px solid white; */
+    border:2px solid white;
     display: flex;
 }
 .fb{
     width: 45vw;
-    /* border: 2px solid orange; */
+    border: 2px solid orange;
     height: 75vh;
     display: flex;
     justify-content: center;
@@ -84,7 +84,7 @@ body{
 }
 .sb{
     width: 55vw;
-    /* border: 2px solid orange; */
+    border: 2px solid orange;
     height: 75vh;
     display: flex;
     justify-content: space-evenly;
@@ -96,9 +96,9 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 37vw;
+    width: 37vw ;
     height: 10vh;
-    /* border: 2px solid white; */
+    border: 2px solid white;
 }
 .fieldset{
     border-radius: 17px;
@@ -128,10 +128,11 @@ body{
 .input{
     width: fit-content;
     height: fit-content;
-    /* border: 2px solid red; */
+    border: 2px solid red;
 }
 
 #email{
+    /* margin-top: 45px; */
     width: 35vw;
 }
 #password{
@@ -159,7 +160,7 @@ body{
 .facebook{
     width: fit-content;
     height:fit-content;
-    /* border: 1px solid white; */
+    border: 1px solid white;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -174,7 +175,7 @@ body{
 .twitter{
     width: fit-content;
     height: fit-content;
-    /* border: 1px solid white; */
+    border: 1px solid white;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -193,7 +194,7 @@ body{
 .box{
     width: fit-content;
     height: fit-content;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -216,7 +217,7 @@ body{
     font-size: 60px;
 }
 #downbox{
-    /* border: 1px solid white; */
+    border: 1px solid white;
     height: fit-content;
     padding: 20px;
     width: fit-content;

@@ -3,7 +3,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     background-color: black;
-    /* font-family: 'Josefin Sans', sans-serif; */
+    font-family: 'Josefin Sans', sans-serif;
 
 }
 .header{
@@ -17,9 +17,10 @@ body{
     /* font-family:  sans-serif; */
     /* position: fixed; */
     z-index: 1;
-    position: sticky;
+    /* position: sticky; */
     top: 0px;
     flex-wrap: wrap;
+    font-family: 'Josefin Sans', sans-serif;
     
 }
 .fh{
@@ -28,6 +29,7 @@ body{
     /* border: 2px solid red; */
     display: flex;
     justify-content: flex-start;
+    font-family: 'Josefin Sans', sans-serif;
 
 
 
@@ -50,7 +52,8 @@ body{
     justify-content: flex-start;
     align-items: center;
     font-size: 36px;
-    font-weight: bold;
+    /* font-weight: bold; */
+    font-family: 'Josefin Sans', sans-serif;
 }
 .sh{
     height: 10hv;
@@ -59,6 +62,7 @@ body{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
 }
 .menu{
     height: 9vh;
@@ -101,11 +105,9 @@ body{
     /* border:2px solid red; */
     height: 27vh;
     width: 28vw;
-    flex-direction: column;
-    
-
-
-
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .btn{
     border:1px solid #C6246E;
@@ -115,6 +117,7 @@ body{
     color:#C6246E;
     background-color: black;
     font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
     
 
 }
@@ -125,6 +128,7 @@ body{
     background-color: black;
     color:white;
     font-weight: bold;
+    /* font-family: 'Josefin Sans', sans-serif; */
     border-color: white;
 
 }
