@@ -18,14 +18,14 @@ function typingeffect(){
 typingeffect();
 
 
-function leftclick(event){
-    const leftclick = event.button;
-    if(document.getElementById("myform").style.display=="flex" && leftclick==0)
-    {
-        closeform();
-    }
-    // if(leftclick == 0 ){
-    //     prompt("clicked");
-    // }
-}
+// function leftclick(event){
+//     const leftclick = event.button;
+//     if(document.getElementById("myform").style.display=="flex" && leftclick==0)
+//     {
+//         closeform();
+//     }
+//     // if(leftclick == 0 ){
+//     //     prompt("clicked");
+//     // }
+// }
 

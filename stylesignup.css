@@ -12,7 +12,7 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 45vw;
     height: 15vh;
     
@@ -20,11 +20,11 @@ body{
 .header{
     width: 100vw;
     height: 15vh;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    font-weight: bolder;
+    /* font-weight: bolder; */
     font-size: 36px;
     font-weight: bold;
 }
@@ -32,7 +32,7 @@ body{
 .sh{
     width:55vw ;
     height: 15vh;
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -46,20 +46,20 @@ body{
     margin-right: 0; */
     height: 82vh;
     width: 55vw;
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
     /* float: right; */
 }
 .left{
     height: 80vh;
     width:45vw ;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 0px;
 }
 .content{
-    border: 2px solid white;
+    /* border: 2px solid white; */
     height: 51vh;
     width: 45vw;
     display: flex;
@@ -70,12 +70,12 @@ body{
 .body{
     width: 100vw;
     height: 75vh;
-    border:2px solid white;
+    /* border:2px solid white; */
     display: flex;
 }
 .fb{
     width: 45vw;
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
     height: 75vh;
     display: flex;
     justify-content: center;
@@ -84,7 +84,7 @@ body{
 }
 .sb{
     width: 55vw;
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
     height: 75vh;
     display: flex;
     justify-content: space-evenly;
@@ -98,7 +98,7 @@ body{
     align-items: center;
     width: 37vw ;
     height: 10vh;
-    border: 2px solid white;
+    /* border: 2px solid white; */
 }
 .fieldset{
     border-radius: 17px;
@@ -109,7 +109,8 @@ body{
     align-items: center;
     font-weight: 500;
     font-size: 20px;
-    border: 2px solid white;
+    /* border: 2px solid white; */
+    font-family: 'Josefin Sans', sans-serif;
 
 
 }
@@ -128,7 +129,7 @@ body{
 .input{
     width: fit-content;
     height: fit-content;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 #email{
@@ -160,14 +161,14 @@ body{
 .facebook{
     width: fit-content;
     height:fit-content;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     display: flex;
     justify-content: flex-start;
     align-items: center;
     text-align: center;
     padding: 5px;
     background-color:#310011;
-    font-weight: bold;
+    font-weight: 500;
 
 
 
@@ -175,14 +176,15 @@ body{
 .twitter{
     width: fit-content;
     height: fit-content;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     display: flex;
     justify-content: flex-start;
     align-items: center;
     text-align: center;
     padding: 5px;
     background-color:  #310011;
-    font-weight: bold;
+    font-weight: 500;
+    /* font-weight: bold; */
     
 }
 .icon{
@@ -194,10 +196,11 @@ body{
 .box{
     width: fit-content;
     height: fit-content;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 700;
     text-align: center;
     /* font-weight: bold; */
     /* font-size: large; */
@@ -242,8 +245,9 @@ body{
     font-size: x-large;
 }
 .signbtn{
-    font-weight: bolder;
-    /* font-size: xx-large; */
+    /* font-weight: bolder; */
+    font-size: xx-large;
+    font-family: 'Josefin Sans', sans-serif;
 }
 .signbtn:hover{
     cursor: pointer;

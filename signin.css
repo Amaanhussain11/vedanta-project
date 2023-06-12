@@ -111,12 +111,13 @@ body{
     color: white;
     outline: none;
     font-size: 20px;
-    font-weight: bold;
+    /* font-weight: bold; */
     display: flex;
     align-items: center;
     justify-content: flex-start;
     border: none;
     border-radius: 5px;
+    font-weight: 400;
 
 }
 .username{
@@ -125,13 +126,22 @@ body{
     justify-content: flex-start;
     border: 1px solid white;
     background-color: #310011;
-    border-radius: 5px ;
-    width: fit-content;
+    border-radius: 10px ;
+    width: 556px;
 }
 .icon{
     margin-right: 4px;
     margin-left: 5px;
+    /* border:2px solid white; */
     
+}
+#eyeicon{
+    display: flex;
+    float: right;
+    align-items: center;
+    /* border: 2px solid white; */
+    height: fit-content;
+    width: fit-content;
 }
 
 .spassword input{
@@ -142,7 +152,7 @@ body{
     color: white;
     outline: none;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 400;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -153,33 +163,40 @@ body{
 .spassword{
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
     border: 1px solid white;
     background-color: #310011;
-    border-radius: 5px ;
-    width: fit-content;
+    border-radius: 10px ;
+    width: 556px;
 }
+.firstelementofpassowrd{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 
+}
 .loginbutton{
-    width: 25vw;
+    width: 556px;
     height: 8vh;
-    /* border: 2px solid white; */
+    /* border: 1px solid white; */
     /* background-color: #310011; */
     color: white;
     background: #EF0E6DEB;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 20px;
+    border: none;
+    border-radius: 10px;
 }
 
 .rememberme{
-    width: 25vw;
+    width: 556px;
     height: 8vh;
     /* border: 2px solid white; */
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: space-between;
-    font-weight: bold;
+    font-weight: 300;
     font-size: 18px;
     flex-wrap: wrap;
     
@@ -215,7 +232,7 @@ body{
 }
 
 .line{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     width: 4vw;
     height: 0px;
 
@@ -239,6 +256,7 @@ body{
     align-items: center;
     border-radius: 50px;
     background: #1877F2;
+    padding:7px;
 
 }
 
@@ -250,7 +268,7 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 50px;
-    background: #1877F2;
+    /* background: #1877F2; */
 
 }
 .twittericon{
@@ -262,5 +280,6 @@ body{
     align-items: center;
     border-radius: 50px;
     background: #1877F2;
+    padding:7px;
 
 }
