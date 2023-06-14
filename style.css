@@ -65,12 +65,17 @@ body{
     font-family: 'Josefin Sans', sans-serif;
 }
 .menu{
-    height: 9vh;
-    width: 10vw;
+   height: fit-content;
+   width: fit-content;
     display: flex;
     justify-content: center;
     /* border: 1px solid red; */
+    padding: 5px;
     align-items: center;
+    color: white;
+    text-decoration: none;
+    margin: 7px;
+
 
 }
 
@@ -491,17 +496,24 @@ div.body1{
 
 /* footer css */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;1,100;1,200;1,300&display=swap');
+
+
+
+
+
 body{
     line-height: 2.5 px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.container{
+.containerfooter{
     max-width: 1200px;
 
     margin: auto;
@@ -516,23 +528,55 @@ ul{
 }
     
     .footer{
-    background-color:#1a001a;
+    background-color:#000000;
     padding: 70px 0;
 
 }
 .footer-col{
     width: 25%;
     padding: 0 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* text-align: center; */
+    /* border: 2px solid white; */
+    margin-left: 0px;
 }
+
+.innerfootercol{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    /* border: 1px solid white; */
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
 .footer-col h4{
-    font-size: 18px;
+    font-size: 25px;
     color: #ffffff;
     text-transform:capitalize ;
     margin-bottom: 30px;
     font-weight: 500;
     position: relative;
+    border-radius: 20px;
+    font-weight: 200;
+    margin-left: 0px;
+
+
     
     
+}
+.content_button{
+    padding: 1%;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: rgb(211,4,152);
+    width:100px;
 }
 .footer-col h4::before{
     content: '';
@@ -567,12 +611,12 @@ width: 50px;
     display: inline-block;
     height: 40px;
     width: 40px;
-    background-color: rgba(204,0,135);
+    
     margin :  0 10px 10px 0;
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
-    color: #ffffff;
+    color: #e91e63;
     transition: all 0.5s ease;
 
 
@@ -584,14 +628,23 @@ width: 50px;
     background-color: #ffffff;
 
 }
-.container mt-4{
-    font-size: 18px;
+
+.copyright{
     color: #ffffff;
-    text-transform: capitalize;
-    margin-bottom: 30px;
-    font-weight: 500;
-    position:left;
+    display: flex;
+    font-weight:20px ;
+align-items: flex-end;
+width:100%;
+bottom:5%;
+justify-content: center;
+align-items: center;
+
 }
+
+
+
+
+
 
 
 
@@ -682,6 +735,7 @@ width: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding:10px;
 }
 
 .circlepage2{
