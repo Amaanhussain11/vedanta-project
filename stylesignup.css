@@ -124,20 +124,27 @@ body{
     border-radius: 10px;
     width: 14vw;
     height: 4vh;
+    /* border: 1px solid red; */
+    background: transparent;
 }
 
 .input{
     width: fit-content;
     height: fit-content;
     /* border: 2px solid red; */
+    background: transparent;
 }
 
 #email{
     /* margin-top: 45px; */
     width: 35vw;
+    /* border: 1px solid red; */
+    background: transparent;
 }
 #password{
     width: 35vw;
+    /* border: 1px solid red; */
+    background: transparent;
 }
 
 .createaccount{
