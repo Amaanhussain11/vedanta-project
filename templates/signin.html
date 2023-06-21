@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SignIn</title>
-    <link rel="stylesheet" href="signin.css">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/signin.css')}}">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 </head>
 
@@ -15,7 +15,7 @@
     <div class="header">
         <div class="fh">
             <div class="logo">
-                <img src="logo.png" alt="Logo" width="117px" height="117px">
+                <img src="{{url_for('static',filename='img/logo.png')}}"  alt="Logo" width="117px" height="117px">
             </div>
             <div class="name">
                 V-Explore
@@ -64,7 +64,7 @@
             <div class="loginto">
                 Login to Your Account
             </div>
-            <form class="ssbody">
+            <form method="POST" action="{{url_for('signin')}}" class="ssbody">
                 <div class="username">
                     <div class="icon">
                         <i class="fa-regular fa-circle-user fa-2xl" style="color: #ffffff;"></i>

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-Up</title>
-    <link rel="stylesheet" href="stylesignup.css">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/stylesignup.css')}}">
 
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 </head>
@@ -15,7 +15,7 @@
     <div class="header">
         <div class="fh">
             <div class="logo">
-                <img src="logo.png" alt="Logo" width="117px" height="117">
+                <img src="{{url_for('static',filename='img/logo.png')}}"  alt="Logo" width="117px" height="117">
             </div>
             <div class="name">
                 V-Explore
@@ -47,7 +47,7 @@
 
             </div>
         </div>
-        <form class="sb">
+        <form method="POST" action="{{url_for('signup')}}" class="sb">
 
             <div class="name">
                 <fieldset class="fieldset">
