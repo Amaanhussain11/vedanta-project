@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.header{
+    width: 100vw;
+    height: 18vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.headerfirsthalf{
+    display: flex;
+    width: 50vw;
+    height: 17vh;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height:fit-content ;
+
+}
+#logo{
+    height: 105.74px;
+    width: 117px;
+}
+.companyname{
+    font-weight: 700;
+    font-size: 36px;
+}
+.upperbody{
+    display: flex;
+    width: 100vw;
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-image:linear-gradient(to right bottom,#C6246E,purple);
+}
+#upperbodyheading{
+    font-weight: 700px;
+    font-size: 70px;
+    margin-bottom: 70px;
+    background: transparent;
+}
+.cards{
+    background-color: black;
+    padding: 3%;
+}
+.card{
+    margin: 2% 1%;
+background: #77153E; 
+background: linear-gradient(to right bottom,#C6246E,purple);
+}
+.card-text{
+    margin: 4% 0%;
+}

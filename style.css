@@ -9,7 +9,7 @@ body{
 .header{
     height: 10vh;
     width: 100vw;
-    /* border: 2px solid black; */
+    /* border: 2px solid white; */
     display: flex;
     justify-content: flex-start;
     color: white;
@@ -19,6 +19,7 @@ body{
     z-index: 1;
     /* position: sticky; */
     top: 0px;
+    flex-direction: column;
     flex-wrap: wrap;
     font-family: 'Josefin Sans', sans-serif;
     
@@ -100,7 +101,10 @@ body{
 .menu:hover{
     cursor: pointer;
 }
-
+#explorenow{
+    text-decoration: none;
+    
+}
 .form-popup{
     display: none;
     position: fixed;
@@ -756,4 +760,9 @@ align-items: center;
 .card-textpage2{
     font-size: large;
     /* font-weight: bold; */
+}
+
+
+@media only screen and(max-width : 1200px) {
+    
 }
